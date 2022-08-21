@@ -43,7 +43,7 @@ function App() {
       <button onClick={()=>dispatch(decreament())}>Decreament</button>
       <h1>{isLogged==false? <button onClick={()=>dispatch(islogged())}>Log In</button> : <button onClick={()=>dispatch(notlogged())}>Log Out</button>}</h1>
       
-      <h1>{isLogged==true? "Is logged" : "Not logged"}</h1>
+      <h1>{isLogged==true? "Welcome User!!!" : "Please log in"}</h1>
 
     </div>
   );
