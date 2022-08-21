@@ -36,8 +36,10 @@ function App() {
   const isLogged = useSelector(state => state.isloggedReducer)
   return (
     <div className="App">
+
       <h1>React Redux Tutorial</h1>
       <h1>Counter : {counter}</h1>
+      
       {/* call action in dispatch */}
       <button onClick={()=>dispatch(increament(newValue))}>Increament</button>
       <button onClick={()=>dispatch(decreament())}>Decreament</button>
